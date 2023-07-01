@@ -9,4 +9,4 @@ Here we are using OpenNMT-py. Please refer to
 
 - OpenNMT.ipynb
 
-It requires 4 CPUs/12G RAM/1GPU.
+It requires 4 CPUs/12G RAM/1 GPU.
