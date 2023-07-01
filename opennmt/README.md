@@ -7,6 +7,8 @@ OpenNMT is an open source ecosystem for neural machine translation and neural se
 
 Here we are using OpenNMT-py. Please refer to
 
-- OpenNMT.ipynb
+- OpenNMT.ipynb: French -> English
+- OpenNMT-zh.ipynb: Chinese -> English
+
 
 It requires 4 CPUs/12G RAM/1 GPU.
