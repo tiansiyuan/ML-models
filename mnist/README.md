@@ -9,3 +9,7 @@ It uses PyTorch framework and requires 0.5 CPU/1G RAM, but no GPU.
 - MNIST-Tensorboard.ipynb
 
 It uses Tensorflow framework and requires 1 CPU/4G RAM, no GPU.
+
+- pipeline.ipynb
+
+It is the steps to create the pipeline file, mnist.yaml.
