@@ -12,4 +12,6 @@ It uses Tensorflow framework and requires 1 CPU/4G RAM, no GPU.
 
 - pipeline.ipynb
 
-It is the steps to create the pipeline file, mnist.yaml.
+It contains the steps to create the pipeline file, mnist.yaml.
+
+You may have problem pulling gcr.io/ml-pipeline/argoexec:v3.3.8-license-compliance, using the method in https://github.com/xujinheng/imageswap-webhook-proxycache can solve the problem.
