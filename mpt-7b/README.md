@@ -8,4 +8,6 @@ These architectural changes include performance-optimized layer implementations 
 
 This model uses the MosaicML LLM codebase, which can be found in the [llm-foundry repository](https://github.com/mosaicml/llm-foundry). It was trained by MosaicML’s NLP team on the [MosaicML platform](https://www.mosaicml.com/training) for LLM pretraining, finetuning, and inference.
 
+Please refer to MPT-7B.ipynb, which is from https://github.com/mosaicml/llm-foundry/blob/main/TUTORIAL.md, with Apache License 2.0.
+
 It requires 4 CPUs/24G RAM/1 GPU.
