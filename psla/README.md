@@ -4,4 +4,13 @@ PSLA is a strong training pipeline that can significantly improve the performanc
 
 Please refer to PSLA.ipynb which is based on https://github.com/YuanGongND/psla/blob/main/README.md, which is BSD 3-Clause License.
 
+Change `batch_size` in file run.sh from 24 to 8, otherwise the training will report a GPU memory problem and abort.
+
+The training results are 4 .csv files in egs/fsd50k/exp/demo-efficientnet-2-5e-4-fsd50k-impretrain-True-fm48-tm192-mix0.5-bal-True-b8-lemean-2/
+
+- best_single_result.csv  
+- ensemble_result.csv  
+- result.csv  
+- wa_result.csv
+
 It requires 4 CPUs/16G RAM/1 GPU.
