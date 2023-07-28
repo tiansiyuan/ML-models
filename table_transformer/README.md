@@ -4,4 +4,8 @@ DETR is short for DEtection TRansformer, and consists of a convolutional backbon
 
 The notebook is taken from [here](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/Table%20Transformer/Using_Table_Transformer_for_table_detection_and_table_structure_recognition.ipynb).
 
-It requires 2 CPUs/4G RAM, but no GPU.
+It requires 1 CPU/2G RAM, but no GPU.
+
+Use the following custom Docker image when creating notebook server:
+
+projects.registry.vmware.com/models/notebook/inference:cv-pytorch-cpu-v1
