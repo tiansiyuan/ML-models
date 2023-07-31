@@ -10,6 +10,26 @@ Use the following custom Docker image when creating notebook server:
 
 projects.registry.vmware.com/models/notebook/inference:cv-pytorch-cpu-v1
 
-Attention: it needs torch version 2.0 or 2.0.1, lower versions don't work.
+Attention: verified that it works with the following torch versions, lower versions don't work.
+
+ - 1.10.0
+
+ - 1.10.1
+
+ - 1.10.2
+
+ - 1.11.0
+
+ - 1.12.0
+
+ - 1.12.1
+
+ - 1.13.0
+
+ - 1.13.1
+
+ - 2.0.0
+
+ - 2.0.1
 
 Cell `!pip install timm` requires torch>=1.7. If a version like 1.8.1 is install, it will skip it; it there is no torch or a version lower than 1.7, torch 1.8.1 is installed.
