@@ -2,7 +2,7 @@
 
 A TextBlob sentiment analysis pipeline component for [spaCy](https://spacy.io/).
 
-This tutorial guides you to run the example with [this Jupyter notebook](https://github.com/vmware/vSphere-machine-learning-extension/blob/main/examples/model_serving/nlp/spacytextbolb/spacytextbolb.ipynb).
+This tutorial guides you to run the example with [this Jupyter notebook](https://github.com/vmware/vSphere-machine-learning-extension/blob/main/examples/model_serving/nlp/spacytextblob/spacytextblob.ipynb).
 
 Steps to run the example:
 
@@ -13,7 +13,7 @@ Steps to run the example:
 3. Download the Jupyter notebook in the Terminal via command: 
 
    ```shell
-   wget https://raw.githubusercontent.com/vmware/vSphere-machine-learning-extension/master/examples/model_serving/nlp/spacytextbolb/spacytextbolb.ipynb
+   wget https://raw.githubusercontent.com/vmware/vSphere-machine-learning-extension/master/examples/model_serving/nlp/spacytextblob/spacytextblob.ipynb
    ```
 
 4. Open the downloaded notebook file follow the steps in the notebook to reproduce the results.
