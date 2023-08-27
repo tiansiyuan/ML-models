@@ -6,7 +6,7 @@ This tutorial shows you with a Jupyter notebook the inference with this model (i
 
 Steps to run the example:
 
-1. Create a new notebook server on **Kubeflow on vSphere** dashboard with 2 CPUs and 4G RAM using custom Docker image `projects.registry.vmware.com/models/notebook/inference:cv-pytorch-cpu-v3`. GPU is not needed. 
+1. Create a new notebook server on **Kubeflow on vSphere** dashboard with 2 CPUs and 6G RAM using custom Docker image `projects.registry.vmware.com/models/notebook/inference:cv-pytorch-cpu-v3`. GPU is not needed. 
 
 2. `CONNECT` to the notebook server and launch a Terminal in the created notebook server.
 
