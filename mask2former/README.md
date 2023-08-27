@@ -2,7 +2,7 @@
 
 [Mask2Former](https://huggingface.co/docs/transformers/main/en/model_doc/mask2former) is a very nice new model from Meta AI, capable of solving any type of image segmentation (whether it's instance, semantic or panoptic segmentation) using the same architecture. The model improves upon DETR and MaskFormer by incorporating masked attention in its Transformer decoder.
 
-This tutorial shows you with a Jupyter notebook the inference with this model (i.e. making predictions on a new image) for panoptic, semantic and instance segmentation..
+This tutorial shows you with a Jupyter notebook the inference with this model (i.e. making predictions on a new image) for panoptic, semantic and instance segmentation.
 
 Steps to run the example:
 
