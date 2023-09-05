@@ -9,7 +9,7 @@ This tutorial shows you *speaker diarization* using the model with a Jupyter not
 
 Steps to run the example:
 
-1. Create a new notebook server on **Kubeflow on vSphere** dashboard with 2 CPUs and 4G RAM using custom Docker image `projects.registry.vmware.com/models/notebook/inference:cv-pytorch-cpu-v3`. GPU is not necessary.
+1. Create a new notebook server on **Kubeflow on vSphere** dashboard with 2 CPUs and 4G RAM using custom Docker image `projects.registry.vmware.com/models/notebook/hf-inference-deploy@sha256:8c5960ce436881f37336b12556d7a661ea20e4dbfe9ac193516cf384daa51c19`. GPU is not needed.
 
 2. `CONNECT` to the notebook server and launch a Terminal in the created notebook server.
 
