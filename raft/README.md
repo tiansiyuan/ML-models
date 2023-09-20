@@ -9,10 +9,24 @@ On Sintel (final pass), RAFT obtains an end-point-error of 2.855 pixels, a 30% e
 addition, RAFT has strong cross-dataset generalization as well as high efficiency in inference time, training speed, and parameter count. Code
 is available at https://github.com/princeton-vl/RAFT.
 
-The command in the repo's README.md:
+This tutorial shows you the demo of the model with a Jupyter notebook.
 
-python evaluate.py --model=models/raft-things.pth --dataset=sintel --mixed_precision
+Steps to run the example:
 
-It is not Jupyter notebook friendly. So, some tweaks are make. Please see the RAFT.ipynb file for details.
+1. Create a new notebook server on **Kubeflow on vSphere** dashboard with 2 CPUs, 4G RAM and 1 GPU using custom Docker image `projects.registry.vmware.com/models/notebook/inference:cv-pytorch-gpu-v3`.
 
-It requires 2CPUs/4G RAM, with or without GPU.
+2. `CONNECT` to the notebook server and launch a Terminal in the created notebook server.
+
+3. Download the Jupyter notebooks in the Terminal via command: 
+
+   ```shell
+   wget https://raw.githubusercontent.com/vmware/vSphere-machine-learning-extension/master/examples/model_inference/cv/raft/RAFT.ipynb
+   ```
+
+4. Open the downloaded notebook and run the cells in the notebook to reproduce the results.
+
+Note:
+
+1. Evaluation does not work, filed an [issue](https://github.com/princeton-vl/RAFT/issues/172)
+
+2. Training, CUDA Out of Memory
