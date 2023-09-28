@@ -7,3 +7,19 @@ This model performs exceptionally well in various tasks like reasoning, coding, 
 Among closed source models, it ranks just behind OpenAI's GPT 4, and performs on par with Google's PaLM 2 Large, which powers Bard, despite being half the size of the model. 
 
 [tiiuae/falcon-180B](https://huggingface.co/tiiuae/falcon-180B)
+
+It is a Gated model. You need to be granted access to this model.
+
+In the terminal, run the following commands:
+
+```shell
+export HTTP_PROXY='http://proxy.vmware.com:3128'
+export HTTPS_PROXY='http://proxy.vmware.com:3128'
+
+pip install transformers accelerate
+
+huggingface-cli login
+```
+
+Paste token generated from https://huggingface.co/settings/tokens and press Enter.
+
