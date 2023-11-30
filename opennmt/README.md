@@ -1,6 +1,6 @@
-# [OpenNMT](https://opennmt.net)
+# OpenNMT
 
-OpenNMT is an open source ecosystem for neural machine translation and neural sequence learning. It is designed to be research friendly to try out new ideas in translation, language modeling, summarization, and many other NLP tasks. Some companies have proven the code to be production ready.
+[OpenNMT](https://opennmt.net) is an open source ecosystem for neural machine translation and neural sequence learning. It is designed to be research friendly to try out new ideas in translation, language modeling, summarization, and many other NLP tasks. Some companies have proven the code to be production ready.
 
 OpenNMT provides implementations in 2 popular deep learning frameworks:
 
